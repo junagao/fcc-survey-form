@@ -12,16 +12,17 @@ For a demo, check out https://codepen.io/junagao/pen/KKKKodB
 
 <img src="./images/hs-mobile.png" alt="drawing" width="400"/>
 
+
+
 ## 📚 Tech Stack
 
 * HTML5
-* Javascript
 * CSS
   * CSS Grid
 
 
 
-## Project Specifications
+## ✍️ Project Specifications
 
 - **Objective:** Build a [CodePen.io](https://codepen.io/) app that is functionally similar to this: <https://codepen.io/freeCodeCamp/full/VPaoNP>.
 - Fulfill the below [user stories](https://en.wikipedia.org/wiki/User_story) and get all of the tests to pass. Give it your own personal style.
@@ -48,7 +49,7 @@ For a demo, check out https://codepen.io/junagao/pen/KKKKodB
 
 
 
-## Resources
+## 🧭 Resources
 
 <https://developer.mozilla.org/en-US/docs/Web/HTML>
 
