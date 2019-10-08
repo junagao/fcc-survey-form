@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Happiness Survey</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1 id="title">Happiness Survey</h1>
+      <p id="description">The happiness survey is an in-depth survey that helps to measure the happiness of the world</p>
+    </div>
+    <div class="sections">
+      <form id="survey-form" class="form" method="get" action="">
+        <div class="row">
+          <div class="labels">
+            <label id="name-label" for="name">Name:</label>
+          </div>
+          <div class="user-inputs">
+            <input autofocus type="text" id="name" name="name" class="input-field" placeholder="Enter your name" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="labels">
+            <label id="email-label" for="email">E-mail:</label>
+          </div>
+          <div class="user-inputs">
+            <input type="email" id="email" name="email" class="input-field" placeholder="Enter your e-mail" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="labels">
+            <label id="number-label" for="age">Age:</label>
+          </div>
+          <div class="user-inputs">
+            <input type="number" id="number" name="number" min="1" max="125" class="input-field" placeholder="Enter your age">
+          </div>
+        </div>
+        <div class="row">
+          <div class="labels">
+            <label for="dropdown">How would you rate your overall level of happiness?</label>
+          </div>
+          <div class="user-inputs">
+            <div class="select-field">
+              <select name="general happiness level" id="dropdown" class="select-field-menu">
+                <option disabled value>Select an option</option>
+                <option value="very high">Very high</option>
+                <option value="high">High</option>
+                <option value="average">Average</option>
+                <option value="low">Low</option>
+                <option value="very low">Very Low</option>
+              </select>
+              <span class="select-field-decor" aria-hidden="true" role="presentation">&dtrif;</span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="labels">
+            <label for="">How happy are you at the moment?</label>
+          </div>
+          <div class="user-inputs">
+            <ul>
+              <li>
+                <input type="radio" id="very-happy" name="happiness-level" value="very-happy">
+                <label for="very-happy">Very Happy</label></li>
+              <li>
+                <input type="radio" id="moderately-happy" name="happiness-level" value="moderately-happy">
+                <label for="moderately-happy">Moderately Happy</label>
+              </li>
+              <li>
+                <input type="radio" id="very-unhappy" name="happiness-level" value="very-unhappy">
+                <label for="very-unhappy">Very Unhappy</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="labels">
+            <p>In what area of your life would you like to increase your feelings of happiness? Select all that apply.</p>
+          </div>
+          <div class="user-inputs">
+            <ul>
+              <li>
+                <input type="checkbox" id="family" name="family" value="family">
+                <label for="family">Family</label>
+              </li>
+              <li>
+                <input type="checkbox" id="friends" name="friends" value="friends">
+                <label for="friends">Friends</label>
+              </li>
+              <li>
+                <input type="checkbox" id="relationship" name="relationship" value="relationship">
+                <label for="relationship">Relationship</label>
+              </li>
+              <li>
+                <input type="checkbox" id="workplace" name="workplace" value="workplace">
+                <label for="workplace">Workplace</label>
+              </li>
+              <li>
+                <input type="checkbox" id="career" name="career" value="career">
+                <label for="career">Career</label>
+              </li>
+              <li>
+                <input type="checkbox" id="health" name="health" value="health">
+                <label for="health">Health</label>
+              </li>
+              <li>
+                <input type="checkbox" id="wealth" name="wealth" value="wealth">
+                <label for="wealth">Wealth</label>
+              </li>
+              <li>
+                <input type="checkbox" id="surrounding" name="surrounding" value="surrounding">
+                <label for="surrounding">Surroundings</label>
+              </li>
+              <li>
+                <input type="checkbox" id="leisure-time" name="leisure-time" value="leisure-time">
+                <label for="leisure-time">Leisure time</label>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="labels">
+            <label for="what-makes-me-happy-now">You will be happy at this very moment if:</label>
+          </div>
+          <div class="user-inputs">
+            <textarea id="what-makes-me-happy-now" class="input-field-multiline" name="what-makes-me-happy-now" rows="5" cols="33"></textarea>
+          </div>
+        </div>
+        <div class="footer">
+          <button id="submit" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
