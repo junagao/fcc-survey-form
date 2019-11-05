@@ -4,11 +4,10 @@ This is a survey form build as part of the freeCodeCamp Responsive Web Design Pr
 
 ## 👀 Demo & Screenshot
 
-For a demo, check out <a src="https://codepen.io/junagao/pen/KKKKodB" target="_blank">https://codepen.io/junagao/pen/KKKKodB</a>
+For a demo, check out https://codepen.io/junagao/pen/KKKKodB
 
 <p align="center">
   <img src="./images/hs-desktop.png" alt="drawing" width="768"/>
-
   <img src="./images/hs-mobile.png" alt="drawing" width="400"/>
 </p>
 
