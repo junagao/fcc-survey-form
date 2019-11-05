@@ -57,6 +57,12 @@ h1 {
   text-align: right;
 }
 
+.name-label,
+.email-label,
+.number-label {
+  align-self: center;
+}
+
 .user-inputs {
   align-self: center;
   display-area: 'inputs';
