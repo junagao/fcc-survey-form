@@ -2,25 +2,19 @@
 
 This is a survey form build as part of the freeCodeCamp Responsive Web Design Project curriculum.
 
-
-
 ## 👀 Demo & Screenshot
 
-For a demo, check out https://codepen.io/junagao/pen/KKKKodB
+For a demo, check out <a src="https://codepen.io/junagao/pen/KKKKodB" target="_blank">https://codepen.io/junagao/pen/KKKKodB</a>
 
 <img src="./images/hs-desktop.png" alt="drawing" width="768"/>
 
 <img src="./images/hs-mobile.png" alt="drawing" width="400"/>
 
-
-
 ## 📚 Tech Stack
 
-* HTML5
-* CSS
-  * CSS Grid
-
-
+- HTML5
+- CSS
+  - CSS Grid
 
 ## ✍️ Project Specifications
 
@@ -47,13 +41,8 @@ For a demo, check out https://codepen.io/junagao/pen/KKKKodB
 - Once you're done, submit the URL to your working project with all its tests passing.
 - Remember to use the [Read-Search-Ask](https://forum.freecodecamp.org/t/how-to-get-help-when-you-are-stuck/19514) method if you get stuck.
 
-
-
 ## 🧭 Resources
 
 <https://developer.mozilla.org/en-US/docs/Web/HTML>
 
 <https://css-tricks.com/snippets/css/complete-guide-grid/>
-
-
-
